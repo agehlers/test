@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SearchResultsSpecs" tests="36" skipped="0" failures="0" errors="0" timestamp="2017-12-07T20:16:31" hostname="bddstack-99jsv" time="76.417">
+  <properties/>
+  <testcase name="Scenario 1: No (zero) matching results - No entry" classname="SearchResultsSpecs" time="0.694"/>
+  <testcase name="Scenario 1: No (zero) matching results - Well ID 9999999" classname="SearchResultsSpecs" time="0.855"/>
+  <testcase name="Scenario 1: No (zero) matching results - Address - Random Address" classname="SearchResultsSpecs" time="1.083"/>
+  <testcase name="Scenario 1: No (zero) matching results - Legal - 9999999" classname="SearchResultsSpecs" time="1.007"/>
+  <testcase name="Scenario 1: No (zero) matching results - Owner - Random Owner" classname="SearchResultsSpecs" time="0.908"/>
+  <testcase name="Scenario 1: No (zero) matching results - All Fields" classname="SearchResultsSpecs" time="1.532"/>
+  <testcase name="Scenario 1: One matching result - Well ID - 107667" classname="SearchResultsSpecs" time="0.871"/>
+  <testcase name="Scenario 1: One matching result - Address - 218 RD" classname="SearchResultsSpecs" time="0.934"/>
+  <testcase name="Scenario 1: One matching result - Legal PID - 005337879" classname="SearchResultsSpecs" time="1.065"/>
+  <testcase name="Scenario 1: One matching result - Legal PID - KAP 55997" classname="SearchResultsSpecs" time="1.069"/>
+  <testcase name="Scenario 1: One matching result - Legal PID - KAP61460" classname="SearchResultsSpecs" time="0.951"/>
+  <testcase name="Scenario 1: Multiple matching results - Legal PID - KAP61" classname="SearchResultsSpecs" time="1.132"/>
+  <testcase name="Scenario 1: One matching result - Owner - GARY AKLES" classname="SearchResultsSpecs" time="0.997"/>
+  <testcase name="Scenario 1: One matching result - - All Fields" classname="SearchResultsSpecs" time="2.26"/>
+  <testcase name="Scenario 1: Multiple matching results - Well ID 110000" classname="SearchResultsSpecs" time="0.975"/>
+  <testcase name="Scenario 1: Too many results - Address 1" classname="SearchResultsSpecs" time="1.31"/>
+  <testcase name="Scenario 1: Too many results - Legal PID 1" classname="SearchResultsSpecs" time="1.294"/>
+  <testcase name="Scenario 1: Map Search - 0 Results" classname="SearchResultsSpecs" time="6.098"/>
+  <testcase name="Scenario 1: Map Search - &gt;0 Results" classname="SearchResultsSpecs" time="1.013"/>
+  <testcase name="Scenario 1: Map Search - &gt; 1000 Results" classname="SearchResultsSpecs" time="1.199"/>
+  <testcase name="Scenario 2: One matching result - Well ID - 107667" classname="SearchResultsSpecs" time="2.281"/>
+  <testcase name="Scenario 2: One matching result - Address - 218 RD" classname="SearchResultsSpecs" time="1.001"/>
+  <testcase name="Scenario 2: One matching result - Legal PID - 005337879" classname="SearchResultsSpecs" time="1.042"/>
+  <testcase name="Scenario 2: One matching result - Owner - GARY AKLES" classname="SearchResultsSpecs" time="0.989"/>
+  <testcase name="Scenario 2: One matching result - - All Fields" classname="SearchResultsSpecs" time="1.373"/>
+  <testcase name="Scenario 2: Multiple matching results - Address 12" classname="SearchResultsSpecs" time="2.517"/>
+  <testcase name="Scenario 2: Multiple matching results - Owner ROLAND" classname="SearchResultsSpecs" time="1.169"/>
+  <testcase name="Scenario 3: Reset Button" classname="SearchResultsSpecs" time="1.848"/>
+  <testcase name="Scenario 4: Zoom in/out buttons on map" classname="SearchResultsSpecs" time="3.199"/>
+  <testcase name="Scenario 5: Zoom Tool Function" classname="SearchResultsSpecs" time="12.974"/>
+  <testcase name="Scenario 6: No Search Criteria Error Message" classname="SearchResultsSpecs" time="0.771"/>
+  <testcase name="Scenario 7: Choose Number of search results to be displayed.[0]" classname="SearchResultsSpecs" time="2.747"/>
+  <testcase name="Scenario 7: Choose Number of search results to be displayed.[1]" classname="SearchResultsSpecs" time="1.972"/>
+  <testcase name="Scenario 8: Sort numeric column[0]" classname="SearchResultsSpecs" time="4.683"/>
+  <testcase name="Scenario 8: Sort numeric column[1]" classname="SearchResultsSpecs" time="3.317"/>
+  <testcase name="Scenario 9: Sort string column" classname="SearchResultsSpecs" time="7.277"/>
+  <system-out><![CDATA[BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

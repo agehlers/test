@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="WellSearchSpecs" tests="30" skipped="0" failures="16" errors="0" timestamp="2017-12-07T19:55:57" hostname="bddstack-99jsv" time="244.144">
+  <properties/>
+  <testcase name="Scenario 1: Well Search by Well Tag Number OR Well Identification Plate Number: One matching result - Well Tag - 107667" classname="WellSearchSpecs" time="12.606"/>
+  <testcase name="Scenario 1: Well Search by Well Tag Number OR Well Identification Plate Number: Multiple matching results - Well Tag 2" classname="WellSearchSpecs" time="22.236">
+    <failure message="Condition failed with Exception:&#10;&#10;waitFor { results_info.displayed == true }&#10;|&#10;geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)&#10;" type="org.spockframework.runtime.ConditionFailedWithExceptionError">Condition failed with Exception:
+
+waitFor { results_info.displayed == true }
+|
+geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+
+	at WellSearchSpecs.Scenario 1: Well Search by Well Tag Number OR Well Identification Plate Number: #TestDesc(WellSearch.groovy:44)
+Caused by: geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.waiting.DefaultWaitingSupport.doWaitFor(DefaultWaitingSupport.groovy:51)
+	at geb.waiting.DefaultWaitingSupport.waitFor(DefaultWaitingSupport.groovy:38)
+	at geb.Page.waitFor(Page.groovy:535)
+	at geb.Browser.methodMissing(Browser.groovy:209)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	... 1 more
+Caused by: geb.error.RequiredPageContentNotPresent: The required page content 'pages.app.SearchPage -&gt; results_info: geb.navigator.EmptyNavigator' is not present
+	at geb.content.TemplateDerivedPageContent.require(TemplateDerivedPageContent.groovy:61)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy:63)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy)
+	at geb.content.PageContentTemplate.create(PageContentTemplate.groovy:83)
+	at geb.content.PageContentTemplate.get(PageContentTemplate.groovy:54)
+	at geb.content.DefaultPageContentSupport.getContent(DefaultPageContentSupport.groovy:42)
+	at geb.content.PageContentSupport.propertyMissing(PageContentSupport.groovy:39)
+	at geb.Page.propertyMissing(Page.groovy:112)
+	at geb.Browser.propertyMissing(Browser.groovy:216)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:60)
+	at groovy.lang.Closure.getPropertyTryThese(Closure.java:312)
+	at groovy.lang.Closure.getPropertyOwnerFirst(Closure.java:306)
+	at groovy.lang.Closure.getProperty(Closure.java:295)
+	at WellSearchSpecs.Scenario 1: Well Search by Well Tag Number OR Well Identification Plate Number: #TestDesc_closure2(WellSearch.groovy:44)
+	at WellSearchSpecs.Scenario 1: Well Search by Well Tag Number OR Well Identification Plate Number: #TestDesc_closure2(WellSearch.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 6 more
+</failure>
+  </testcase>
+  <testcase name="Scenario 1: Well Search by Well Tag Number OR Well Identification Plate Number: Multiple matching results - Well ID 52471" classname="WellSearchSpecs" time="1.976">
+    <failure message="Condition not satisfied:&#10;&#10;(NumberOfEntriesFound() == &quot;$NumberResult&quot;) //Total entries found&#10; |                      |    |&#10; 1                      |    2&#10;                        false&#10;                        1 difference (0% similarity)&#10;                        (1)&#10;                        (2)&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+(NumberOfEntriesFound() == &quot;$NumberResult&quot;) //Total entries found
+ |                      |    |
+ 1                      |    2
+                        false
+                        1 difference (0% similarity)
+                        (1)
+                        (2)
+
+	at WellSearchSpecs.Scenario 1: Well Search by Well Tag Number OR Well Identification Plate Number: #TestDesc(WellSearch.groovy:45)
+</failure>
+  </testcase>
+  <testcase name="Scenario 1: Well Search by Well Tag Number OR Well Identification Plate Number: No matching results - Well ID 999999" classname="WellSearchSpecs" time="1.584"/>
+  <testcase name="Scenario 2: Well Search by Street Address: One matching result - Address - 21231 16TH AVE." classname="WellSearchSpecs" time="22.2">
+    <failure message="Condition failed with Exception:&#10;&#10;waitFor { results_info.displayed == true }&#10;|&#10;geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)&#10;" type="org.spockframework.runtime.ConditionFailedWithExceptionError">Condition failed with Exception:
+
+waitFor { results_info.displayed == true }
+|
+geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+
+	at WellSearchSpecs.Scenario 2: Well Search by Street Address: #TestDesc(WellSearch.groovy:120)
+Caused by: geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.waiting.DefaultWaitingSupport.doWaitFor(DefaultWaitingSupport.groovy:51)
+	at geb.waiting.DefaultWaitingSupport.waitFor(DefaultWaitingSupport.groovy:38)
+	at geb.Page.waitFor(Page.groovy:535)
+	at geb.Browser.methodMissing(Browser.groovy:209)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	... 1 more
+Caused by: geb.error.RequiredPageContentNotPresent: The required page content 'pages.app.SearchPage -&gt; results_info: geb.navigator.EmptyNavigator' is not present
+	at geb.content.TemplateDerivedPageContent.require(TemplateDerivedPageContent.groovy:61)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy:63)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy)
+	at geb.content.PageContentTemplate.create(PageContentTemplate.groovy:83)
+	at geb.content.PageContentTemplate.get(PageContentTemplate.groovy:54)
+	at geb.content.DefaultPageContentSupport.getContent(DefaultPageContentSupport.groovy:42)
+	at geb.content.PageContentSupport.propertyMissing(PageContentSupport.groovy:39)
+	at geb.Page.propertyMissing(Page.groovy:112)
+	at geb.Browser.propertyMissing(Browser.groovy:216)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:60)
+	at groovy.lang.Closure.getPropertyTryThese(Closure.java:312)
+	at groovy.lang.Closure.getPropertyOwnerFirst(Closure.java:306)
+	at groovy.lang.Closure.getProperty(Closure.java:295)
+	at WellSearchSpecs.Scenario 2: Well Search by Street Address: #TestDesc_closure11(WellSearch.groovy:120)
+	at WellSearchSpecs.Scenario 2: Well Search by Street Address: #TestDesc_closure11(WellSearch.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 6 more
+</failure>
+  </testcase>
+  <testcase name="Scenario 2: Well Search by Street Address: Multiple matching results - Address - 123" classname="WellSearchSpecs" time="5.314">
+    <failure message="Condition not satisfied:&#10;&#10;(NumberOfEntriesFound() == &quot;$NumberResult&quot;) //Total entries found&#10; |                      |    |&#10; 29                     |    139&#10;                        false&#10;                        2 differences (33% similarity)&#10;                        (2-)9&#10;                        (13)9&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+(NumberOfEntriesFound() == &quot;$NumberResult&quot;) //Total entries found
+ |                      |    |
+ 29                     |    139
+                        false
+                        2 differences (33% similarity)
+                        (2-)9
+                        (13)9
+
+	at WellSearchSpecs.Scenario 2: Well Search by Street Address: #TestDesc(WellSearch.groovy:130)
+</failure>
+  </testcase>
+  <testcase name="Scenario 2: Well Search by Street Address: Multiple matching results - Address - 16TH" classname="WellSearchSpecs" time="4.619">
+    <failure message="Condition not satisfied:&#10;&#10;(NumberOfEntriesFound() == &quot;$NumberResult&quot;) //Total entries found&#10; |                      |    |&#10; 18                     |    389&#10;                        false&#10;                        2 differences (33% similarity)&#10;                        (1)8(-)&#10;                        (3)8(9)&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+(NumberOfEntriesFound() == &quot;$NumberResult&quot;) //Total entries found
+ |                      |    |
+ 18                     |    389
+                        false
+                        2 differences (33% similarity)
+                        (1)8(-)
+                        (3)8(9)
+
+	at WellSearchSpecs.Scenario 2: Well Search by Street Address: #TestDesc(WellSearch.groovy:130)
+</failure>
+  </testcase>
+  <testcase name="Scenario 2: Well Search by Street Address: No matching results - Address - 999999" classname="WellSearchSpecs" time="1.214"/>
+  <testcase name="Scenario 2: Well Search by Street Address: No matching results - Address - &lt;null&gt;" classname="WellSearchSpecs" time="1.15"/>
+  <testcase name="Scenario 3: Well Search by Plan,Lot or PID - Plan - 14313" classname="WellSearchSpecs" time="21.515">
+    <failure message="Condition failed with Exception:&#10;&#10;waitFor {($(&quot;div&quot;,id:&quot;results_info&quot;).displayed == true)}&#10;|&#10;geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)&#10;" type="org.spockframework.runtime.ConditionFailedWithExceptionError">Condition failed with Exception:
+
+waitFor {($(&quot;div&quot;,id:&quot;results_info&quot;).displayed == true)}
+|
+geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+
+	at WellSearchSpecs.Scenario 3: Well Search by Plan,Lot or PID - #TestDesc(WellSearch.groovy:179)
+Caused by: geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.waiting.DefaultWaitingSupport.doWaitFor(DefaultWaitingSupport.groovy:51)
+	at geb.waiting.DefaultWaitingSupport.waitFor(DefaultWaitingSupport.groovy:38)
+	at geb.Page.waitFor(Page.groovy:535)
+	at geb.Browser.methodMissing(Browser.groovy:209)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	... 1 more
+Caused by: Assertion failed: 
+
+($(&quot;div&quot;,id:&quot;results_info&quot;).displayed == true)
+ |                          |         |
+ []                         false     false
+
+	at WellSearchSpecs.Scenario 3: Well Search by Plan,Lot or PID - #TestDesc_closure18(WellSearch.groovy:179)
+	at WellSearchSpecs.Scenario 3: Well Search by Plan,Lot or PID - #TestDesc_closure18(WellSearch.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 6 more
+</failure>
+  </testcase>
+  <testcase name="Scenario 3: Well Search by Plan,Lot or PID - Lot - 123" classname="WellSearchSpecs" time="4.401">
+    <failure message="Condition not satisfied:&#10;&#10;(NumberOfEntriesFound() == &quot;$NumberResult&quot;) //Total entries found&#10; |                      |    |&#10; 116                    |    793&#10;                        false&#10;                        3 differences (0% similarity)&#10;                        (116)&#10;                        (793)&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+(NumberOfEntriesFound() == &quot;$NumberResult&quot;) //Total entries found
+ |                      |    |
+ 116                    |    793
+                        false
+                        3 differences (0% similarity)
+                        (116)
+                        (793)
+
+	at WellSearchSpecs.Scenario 3: Well Search by Plan,Lot or PID - #TestDesc(WellSearch.groovy:189)
+</failure>
+  </testcase>
+  <testcase name="Scenario 3: Well Search by Plan,Lot or PID - PID - 008710902" classname="WellSearchSpecs" time="21.302">
+    <failure message="Condition failed with Exception:&#10;&#10;waitFor {($(&quot;div&quot;,id:&quot;results_info&quot;).displayed == true)}&#10;|&#10;geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)&#10;" type="org.spockframework.runtime.ConditionFailedWithExceptionError">Condition failed with Exception:
+
+waitFor {($(&quot;div&quot;,id:&quot;results_info&quot;).displayed == true)}
+|
+geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+
+	at WellSearchSpecs.Scenario 3: Well Search by Plan,Lot or PID - #TestDesc(WellSearch.groovy:179)
+Caused by: geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.waiting.DefaultWaitingSupport.doWaitFor(DefaultWaitingSupport.groovy:51)
+	at geb.waiting.DefaultWaitingSupport.waitFor(DefaultWaitingSupport.groovy:38)
+	at geb.Page.waitFor(Page.groovy:535)
+	at geb.Browser.methodMissing(Browser.groovy:209)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	... 1 more
+Caused by: Assertion failed: 
+
+($(&quot;div&quot;,id:&quot;results_info&quot;).displayed == true)
+ |                          |         |
+ []                         false     false
+
+	at WellSearchSpecs.Scenario 3: Well Search by Plan,Lot or PID - #TestDesc_closure18(WellSearch.groovy:179)
+	at WellSearchSpecs.Scenario 3: Well Search by Plan,Lot or PID - #TestDesc_closure18(WellSearch.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 6 more
+</failure>
+  </testcase>
+  <testcase name="Scenario 3: Well Search by Plan,Lot or PID - No matching results - Legal ID - 999999" classname="WellSearchSpecs" time="2.603"/>
+  <testcase name="Scenario 3: Well Search by Plan,Lot or PID - No matching results - Legal ID - &lt;null&gt;" classname="WellSearchSpecs" time="1.022"/>
+  <testcase name="Scenario 4: Well Search by Owner Name - Multiple Results - Gary" classname="WellSearchSpecs" time="4.291">
+    <failure message="Condition not satisfied:&#10;&#10;(NumberOfEntriesFound() == &quot;$NumberResult&quot;) //Total entries found&#10; |                      |    |&#10; 55                     |    434&#10;                        false&#10;                        3 differences (0% similarity)&#10;                        (55-)&#10;                        (434)&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+(NumberOfEntriesFound() == &quot;$NumberResult&quot;) //Total entries found
+ |                      |    |
+ 55                     |    434
+                        false
+                        3 differences (0% similarity)
+                        (55-)
+                        (434)
+
+	at WellSearchSpecs.Scenario 4: Well Search by Owner Name - #TestDesc(WellSearch.groovy:246)
+</failure>
+  </testcase>
+  <testcase name="Scenario 4: Well Search by Owner Name - Single Result - Gary Akles" classname="WellSearchSpecs" time="2.277"/>
+  <testcase name="Scenario 4: Well Search by Owner Name - No matching results - Random Owner" classname="WellSearchSpecs" time="1.12"/>
+  <testcase name="Scenario 4: Well Search by Owner Name - No matching results - &lt;null&gt;" classname="WellSearchSpecs" time="0.942"/>
+  <testcase name="Scenario 5: Well Search by Owner Name and street address - Multiple Results - Gary" classname="WellSearchSpecs" time="5.785">
+    <failure message="Condition not satisfied:&#10;&#10;(NumberOfEntriesFound() == &quot;$NumberResult&quot;) //Total entries found&#10; |                      |    |&#10; 55                     |    434&#10;                        false&#10;                        3 differences (0% similarity)&#10;                        (55-)&#10;                        (434)&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+(NumberOfEntriesFound() == &quot;$NumberResult&quot;) //Total entries found
+ |                      |    |
+ 55                     |    434
+                        false
+                        3 differences (0% similarity)
+                        (55-)
+                        (434)
+
+	at WellSearchSpecs.Scenario 5: Well Search by Owner Name and street address - #TestDesc(WellSearch.groovy:311)
+</failure>
+  </testcase>
+  <testcase name="Scenario 5: Well Search by Owner Name and street address - Single Result - Gary Akles" classname="WellSearchSpecs" time="2.948"/>
+  <testcase name="Scenario 5: Well Search by Owner Name and street address - No matching results - Random Owner" classname="WellSearchSpecs" time="1.823"/>
+  <testcase name="Scenario 5: Well Search by Owner Name and street address - No matching results - Random Address" classname="WellSearchSpecs" time="1.679"/>
+  <testcase name="Scenario 5: Well Search by Owner Name and street address - No matching results - Random Owner/Address" classname="WellSearchSpecs" time="1.139"/>
+  <testcase name="Scenario 5: Well Search by Owner Name and street address - No matching results - &lt;null&gt;" classname="WellSearchSpecs" time="1.369"/>
+  <testcase name="Scenario 5: Well Search by Owner Name and street address - One matching result - Address - 21231 16TH AVE." classname="WellSearchSpecs" time="21.375">
+    <failure message="Condition failed with Exception:&#10;&#10;waitFor { results_info.displayed == true }&#10;|&#10;geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)&#10;" type="org.spockframework.runtime.ConditionFailedWithExceptionError">Condition failed with Exception:
+
+waitFor { results_info.displayed == true }
+|
+geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+
+	at WellSearchSpecs.Scenario 5: Well Search by Owner Name and street address - #TestDesc(WellSearch.groovy:300)
+Caused by: geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.waiting.DefaultWaitingSupport.doWaitFor(DefaultWaitingSupport.groovy:51)
+	at geb.waiting.DefaultWaitingSupport.waitFor(DefaultWaitingSupport.groovy:38)
+	at geb.Page.waitFor(Page.groovy:535)
+	at geb.Browser.methodMissing(Browser.groovy:209)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	... 1 more
+Caused by: geb.error.RequiredPageContentNotPresent: The required page content 'pages.app.SearchPage -&gt; results_info: geb.navigator.EmptyNavigator' is not present
+	at geb.content.TemplateDerivedPageContent.require(TemplateDerivedPageContent.groovy:61)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy:63)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy)
+	at geb.content.PageContentTemplate.create(PageContentTemplate.groovy:83)
+	at geb.content.PageContentTemplate.get(PageContentTemplate.groovy:54)
+	at geb.content.DefaultPageContentSupport.getContent(DefaultPageContentSupport.groovy:42)
+	at geb.content.PageContentSupport.propertyMissing(PageContentSupport.groovy:39)
+	at geb.Page.propertyMissing(Page.groovy:112)
+	at geb.Browser.propertyMissing(Browser.groovy:216)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:60)
+	at groovy.lang.Closure.getPropertyTryThese(Closure.java:312)
+	at groovy.lang.Closure.getPropertyOwnerFirst(Closure.java:306)
+	at groovy.lang.Closure.getProperty(Closure.java:295)
+	at WellSearchSpecs.Scenario 5: Well Search by Owner Name and street address - #TestDesc_closure32(WellSearch.groovy:300)
+	at WellSearchSpecs.Scenario 5: Well Search by Owner Name and street address - #TestDesc_closure32(WellSearch.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 6 more
+</failure>
+  </testcase>
+  <testcase name="Scenario 5: Well Search by Owner Name and street address - Multiple matching results - Address - 123" classname="WellSearchSpecs" time="4.978">
+    <failure message="Condition not satisfied:&#10;&#10;(NumberOfEntriesFound() == &quot;$NumberResult&quot;) //Total entries found&#10; |                      |    |&#10; 29                     |    139&#10;                        false&#10;                        2 differences (33% similarity)&#10;                        (2-)9&#10;                        (13)9&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+(NumberOfEntriesFound() == &quot;$NumberResult&quot;) //Total entries found
+ |                      |    |
+ 29                     |    139
+                        false
+                        2 differences (33% similarity)
+                        (2-)9
+                        (13)9
+
+	at WellSearchSpecs.Scenario 5: Well Search by Owner Name and street address - #TestDesc(WellSearch.groovy:311)
+</failure>
+  </testcase>
+  <testcase name="Scenario 5: Well Search by Owner Name and street address - Multiple matching results - Address - 16TH" classname="WellSearchSpecs" time="5.711">
+    <failure message="Condition not satisfied:&#10;&#10;(NumberOfEntriesFound() == &quot;$NumberResult&quot;) //Total entries found&#10; |                      |    |&#10; 18                     |    389&#10;                        false&#10;                        2 differences (33% similarity)&#10;                        (1)8(-)&#10;                        (3)8(9)&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+(NumberOfEntriesFound() == &quot;$NumberResult&quot;) //Total entries found
+ |                      |    |
+ 18                     |    389
+                        false
+                        2 differences (33% similarity)
+                        (1)8(-)
+                        (3)8(9)
+
+	at WellSearchSpecs.Scenario 5: Well Search by Owner Name and street address - #TestDesc(WellSearch.groovy:311)
+</failure>
+  </testcase>
+  <testcase name="Scenario 5: Well Search by Owner Name and street address - Partial Owner/Address - Gary/201" classname="WellSearchSpecs" time="21.34">
+    <failure message="Condition failed with Exception:&#10;&#10;waitFor { results_info.displayed == true }&#10;|&#10;geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)&#10;" type="org.spockframework.runtime.ConditionFailedWithExceptionError">Condition failed with Exception:
+
+waitFor { results_info.displayed == true }
+|
+geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+
+	at WellSearchSpecs.Scenario 5: Well Search by Owner Name and street address - #TestDesc(WellSearch.groovy:300)
+Caused by: geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.waiting.DefaultWaitingSupport.doWaitFor(DefaultWaitingSupport.groovy:51)
+	at geb.waiting.DefaultWaitingSupport.waitFor(DefaultWaitingSupport.groovy:38)
+	at geb.Page.waitFor(Page.groovy:535)
+	at geb.Browser.methodMissing(Browser.groovy:209)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	... 1 more
+Caused by: geb.error.RequiredPageContentNotPresent: The required page content 'pages.app.SearchPage -&gt; results_info: geb.navigator.EmptyNavigator' is not present
+	at geb.content.TemplateDerivedPageContent.require(TemplateDerivedPageContent.groovy:61)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy:63)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy)
+	at geb.content.PageContentTemplate.create(PageContentTemplate.groovy:83)
+	at geb.content.PageContentTemplate.get(PageContentTemplate.groovy:54)
+	at geb.content.DefaultPageContentSupport.getContent(DefaultPageContentSupport.groovy:42)
+	at geb.content.PageContentSupport.propertyMissing(PageContentSupport.groovy:39)
+	at geb.Page.propertyMissing(Page.groovy:112)
+	at geb.Browser.propertyMissing(Browser.groovy:216)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:60)
+	at groovy.lang.Closure.getPropertyTryThese(Closure.java:312)
+	at groovy.lang.Closure.getPropertyOwnerFirst(Closure.java:306)
+	at groovy.lang.Closure.getProperty(Closure.java:295)
+	at WellSearchSpecs.Scenario 5: Well Search by Owner Name and street address - #TestDesc_closure32(WellSearch.groovy:300)
+	at WellSearchSpecs.Scenario 5: Well Search by Owner Name and street address - #TestDesc_closure32(WellSearch.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 6 more
+</failure>
+  </testcase>
+  <testcase name="Scenario 5: Well Search by Owner Name and street address - Full Owner/ partial Address - Smith/Wolfe" classname="WellSearchSpecs" time="21.609">
+    <failure message="Condition failed with Exception:&#10;&#10;waitFor { results_info.displayed == true }&#10;|&#10;geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)&#10;" type="org.spockframework.runtime.ConditionFailedWithExceptionError">Condition failed with Exception:
+
+waitFor { results_info.displayed == true }
+|
+geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+
+	at WellSearchSpecs.Scenario 5: Well Search by Owner Name and street address - #TestDesc(WellSearch.groovy:300)
+Caused by: geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.waiting.DefaultWaitingSupport.doWaitFor(DefaultWaitingSupport.groovy:51)
+	at geb.waiting.DefaultWaitingSupport.waitFor(DefaultWaitingSupport.groovy:38)
+	at geb.Page.waitFor(Page.groovy:535)
+	at geb.Browser.methodMissing(Browser.groovy:209)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	... 1 more
+Caused by: geb.error.RequiredPageContentNotPresent: The required page content 'pages.app.SearchPage -&gt; results_info: geb.navigator.EmptyNavigator' is not present
+	at geb.content.TemplateDerivedPageContent.require(TemplateDerivedPageContent.groovy:61)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy:63)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy)
+	at geb.content.PageContentTemplate.create(PageContentTemplate.groovy:83)
+	at geb.content.PageContentTemplate.get(PageContentTemplate.groovy:54)
+	at geb.content.DefaultPageContentSupport.getContent(DefaultPageContentSupport.groovy:42)
+	at geb.content.PageContentSupport.propertyMissing(PageContentSupport.groovy:39)
+	at geb.Page.propertyMissing(Page.groovy:112)
+	at geb.Browser.propertyMissing(Browser.groovy:216)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:60)
+	at groovy.lang.Closure.getPropertyTryThese(Closure.java:312)
+	at groovy.lang.Closure.getPropertyOwnerFirst(Closure.java:306)
+	at groovy.lang.Closure.getProperty(Closure.java:295)
+	at WellSearchSpecs.Scenario 5: Well Search by Owner Name and street address - #TestDesc_closure32(WellSearch.groovy:300)
+	at WellSearchSpecs.Scenario 5: Well Search by Owner Name and street address - #TestDesc_closure32(WellSearch.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 6 more
+</failure>
+  </testcase>
+  <testcase name="Scenario 5: Well Search by Owner Name and street address - Partial Owner/Full Address - Gary/201" classname="WellSearchSpecs" time="22.01">
+    <failure message="Condition failed with Exception:&#10;&#10;waitFor { results_info.displayed == true }&#10;|&#10;geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)&#10;" type="org.spockframework.runtime.ConditionFailedWithExceptionError">Condition failed with Exception:
+
+waitFor { results_info.displayed == true }
+|
+geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+
+	at WellSearchSpecs.Scenario 5: Well Search by Owner Name and street address - #TestDesc(WellSearch.groovy:300)
+Caused by: geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.waiting.DefaultWaitingSupport.doWaitFor(DefaultWaitingSupport.groovy:51)
+	at geb.waiting.DefaultWaitingSupport.waitFor(DefaultWaitingSupport.groovy:38)
+	at geb.Page.waitFor(Page.groovy:535)
+	at geb.Browser.methodMissing(Browser.groovy:209)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	... 1 more
+Caused by: geb.error.RequiredPageContentNotPresent: The required page content 'pages.app.SearchPage -&gt; results_info: geb.navigator.EmptyNavigator' is not present
+	at geb.content.TemplateDerivedPageContent.require(TemplateDerivedPageContent.groovy:61)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy:63)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy)
+	at geb.content.PageContentTemplate.create(PageContentTemplate.groovy:83)
+	at geb.content.PageContentTemplate.get(PageContentTemplate.groovy:54)
+	at geb.content.DefaultPageContentSupport.getContent(DefaultPageContentSupport.groovy:42)
+	at geb.content.PageContentSupport.propertyMissing(PageContentSupport.groovy:39)
+	at geb.Page.propertyMissing(Page.groovy:112)
+	at geb.Browser.propertyMissing(Browser.groovy:216)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:60)
+	at groovy.lang.Closure.getPropertyTryThese(Closure.java:312)
+	at groovy.lang.Closure.getPropertyOwnerFirst(Closure.java:306)
+	at groovy.lang.Closure.getProperty(Closure.java:295)
+	at WellSearchSpecs.Scenario 5: Well Search by Owner Name and street address - #TestDesc_closure32(WellSearch.groovy:300)
+	at WellSearchSpecs.Scenario 5: Well Search by Owner Name and street address - #TestDesc_closure32(WellSearch.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 6 more
+</failure>
+  </testcase>
+  <system-out><![CDATA[BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+Tag ID: tag
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO com.athaydes.spockframework.report.internal.ConfigLoader - SpockReports config loaded: {com.athaydes.spockframework.report.showCodeBlocks=false, com.athaydes.spockframework.report.template.TemplateReportCreator.reportFileExtension=md, com.athaydes.spockframework.report.testSourceRoots=src/test/groovy, com.athaydes.spockframework.report.IReportCreator=com.athaydes.spockframework.report.internal.HtmlReportCreator, com.athaydes.spockframework.report.outputDir=build/reports/spock, com.athaydes.spockframework.report.internal.HtmlReportCreator.inlineCss=true, com.athaydes.spockframework.report.internal.HtmlReportCreator.featureReportCss=spock-feature-report.css, com.athaydes.spockframework.report.hideEmptyBlocks=false, com.athaydes.spockframework.report.internal.HtmlReportCreator.summaryReportCss=spock-summary-report.css, com.athaydes.spockframework.report.projectVersion=Unknown, com.athaydes.spockframework.report.template.TemplateReportCreator.specTemplateFile=/templateReportCreator/spec-template.md, com.athaydes.spockframework.report.template.TemplateReportCreator.summaryTemplateFile=/templateReportCreator/summary-template.md, com.athaydes.spockframework.report.internal.HtmlReportCreator.excludeToc=false, com.athaydes.spockframework.report.template.TemplateReportCreator.enabled=true, com.athaydes.spockframework.report.projectName=, com.athaydes.spockframework.report.template.TemplateReportCreator.summaryFileName=summary.md, com.athaydes.spockframework.report.internal.HtmlReportCreator.printThrowableStackTrace=false, com.athaydes.spockframework.report.internal.HtmlReportCreator.enabled=true}
+Starting ChromeDriver 2.32.498513 (2c63aa53b2c658de596ed550eb5267ec5967b351) on port 30300
+Only local connections are allowed.
+[0.751][SEVERE]: Failed to create /home/jenkins/.pki/nssdb directory.
+Dec 07, 2017 7:56:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+</testsuite>

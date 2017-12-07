@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FlowSpecs" tests="11" skipped="0" failures="0" errors="0" timestamp="2017-12-07T20:00:02" hostname="bddstack-99jsv" time="23.636">
+  <properties/>
+  <testcase name="Navigate Page from: class pages.app.SearchPage, click Link: ribbon-groundwaterinfo, Assert Page: class pages.app.AdditionalInformationPage" classname="FlowSpecs" time="1.178"/>
+  <testcase name="Navigate Page from: class pages.app.AdditionalInformationPage, click Link: ribbon-search, Assert Page: class pages.app.SearchPage" classname="FlowSpecs" time="0.899"/>
+  <testcase name="Navigate Page from: class pages.app.SearchPage, click Link: ribbon-search, Assert Page: class pages.app.SearchPage" classname="FlowSpecs" time="1.035"/>
+  <testcase name="Navigate Page from: class pages.app.SearchPage, click Link: BCWRAtlas, Assert Page: class pages.external.BCWaterResourceAtlas" classname="FlowSpecs" time="2.058"/>
+  <testcase name="Navigate Page from: class pages.app.SearchPage, click Link: iMapBC, Assert Page: class pages.external.iMapBC" classname="FlowSpecs" time="2.526"/>
+  <testcase name="Navigate Page from: class pages.app.SearchPage, click Link: footer-disclaimer, Assert Page: class pages.external.Disclaimer" classname="FlowSpecs" time="3.321"/>
+  <testcase name="Navigate Page from: class pages.app.SearchPage, click Link: footer-privacy, Assert Page: class pages.external.Privacy" classname="FlowSpecs" time="2.697"/>
+  <testcase name="Navigate Page from: class pages.app.SearchPage, click Link: footer-accessibility, Assert Page: class pages.external.Accessibility" classname="FlowSpecs" time="3.347"/>
+  <testcase name="Navigate Page from: class pages.app.SearchPage, click Link: footer-copyright, Assert Page: class pages.external.Copyright" classname="FlowSpecs" time="2.869"/>
+  <testcase name="Navigate Page from: class pages.app.SearchPage, click Link: footer-home, Assert Page: class pages.external.GovHome" classname="FlowSpecs" time="2.093"/>
+  <testcase name="Navigate Page from: class pages.app.SearchPage, click Link: footer-about, Assert Page: class pages.external.AboutGov" classname="FlowSpecs" time="1.609"/>
+  <system-out><![CDATA[BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

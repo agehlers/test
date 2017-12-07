@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SearchResultsPaginationSpecs" tests="10" skipped="0" failures="0" errors="0" timestamp="2017-12-07T20:16:05" hostname="bddstack-99jsv" time="26.366">
+  <properties/>
+  <testcase name="Scenario 1: Page links: Multiple matching results - Address 12 - 1 to Max" classname="SearchResultsPaginationSpecs" time="2.596"/>
+  <testcase name="Scenario 1: Page links: Multiple matching results - Address 12 - 1 to 2" classname="SearchResultsPaginationSpecs" time="2.458"/>
+  <testcase name="Scenario 1: Page links: Multiple matching results - Address 12 - 2 to 3" classname="SearchResultsPaginationSpecs" time="2.631"/>
+  <testcase name="Scenario 1: Page links: Multiple matching results - Address 12 - 1 to 3" classname="SearchResultsPaginationSpecs" time="2.532"/>
+  <testcase name="Scenario 1: Page links: Multiple matching results - Address 12 - 3 to 1" classname="SearchResultsPaginationSpecs" time="2.762"/>
+  <testcase name="Scenario 1: Page links: Multiple matching results - Address 12 - 3 to 2" classname="SearchResultsPaginationSpecs" time="3.059"/>
+  <testcase name="Scenario 2: Next Page links: Multiple matching results - Address 12 - Next is disabled" classname="SearchResultsPaginationSpecs" time="2.531"/>
+  <testcase name="Scenario 2: Next Page links: Multiple matching results - Address 12 - Next button shows" classname="SearchResultsPaginationSpecs" time="2.552"/>
+  <testcase name="Scenario 3: Previous Page links: Multiple matching results - Address 123 - previous is disabled" classname="SearchResultsPaginationSpecs" time="2.565"/>
+  <testcase name="Scenario 3: Previous Page links: Multiple matching results - Address 123 - Previous button shows" classname="SearchResultsPaginationSpecs" time="2.678"/>
+  <system-out><![CDATA[BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+Page should be 1: 1
+[disabled, paginate_button, previous]
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+Page should not be 1: 3
+[paginate_button, previous]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

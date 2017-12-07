@@ -1,0 +1,1399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="WellDetailsSpecs" tests="102" skipped="0" failures="48" errors="0" timestamp="2017-12-07T20:00:26" hostname="bddstack-99jsv" time="938.6">
+  <properties/>
+  <testcase name="Basic Field availability checking: Well Tag -  110749" classname="WellDetailsSpecs" time="2.306"/>
+  <testcase name="Field content checking: well_tag_number - 48084 - 48084" classname="WellDetailsSpecs" time="20.429">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/48084
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: identification_plate_number - 48084 - 13297" classname="WellDetailsSpecs" time="20.39">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/48084
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: owner_full_name - 48084 - RICK PIPES" classname="WellDetailsSpecs" time="20.414">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/48084
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: licenced_status - 48084 - Unlicensed" classname="WellDetailsSpecs" time="20.397">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/48084
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: well_well_status - 48084 - New" classname="WellDetailsSpecs" time="20.501">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/48084
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: well_class - 48084 - Water Supply" classname="WellDetailsSpecs" time="20.561">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/48084
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: well_subclass - 48084 - Domestic" classname="WellDetailsSpecs" time="20.97">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/48084
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: intended_water_use - 48084 - Water Supply System" classname="WellDetailsSpecs" time="20.867">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/48084
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: obs_well_number - 26787 - 2" classname="WellDetailsSpecs" time="20.38">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/26787
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: obs_well_status - 26787 - Active" classname="WellDetailsSpecs" time="20.435">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/26787
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: ems_id - 26787 - 1401057" classname="WellDetailsSpecs" time="20.376">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/26787
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: aquifer_number - 48084 - 207" classname="WellDetailsSpecs" time="20.344">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/48084
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: alternate_specs_submitted - 48084 - No" classname="WellDetailsSpecs" time="20.455">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/48084
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: water_supply_system_name - 48084 - LA POMMERAI: MERRIDALE CIDERWORKS" classname="WellDetailsSpecs" time="20.406">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/48084
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: water_supply_system_well_name - 48084 - PRODUCTION WELL" classname="WellDetailsSpecs" time="20.392">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/48084
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: address - 48084 - 1230 MERRIDALE ROAD" classname="WellDetailsSpecs" time="20.499">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/48084
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: city - 48084 - COBBLE HILL" classname="WellDetailsSpecs" time="20.442">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/48084
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: lot - 48084 - B" classname="WellDetailsSpecs" time="20.475">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/48084
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: plan - 48084 - 220658" classname="WellDetailsSpecs" time="20.42">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/48084
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: district_lot - 110749 - 405" classname="WellDetailsSpecs" time="0.955"/>
+  <testcase name="Field content checking: block - 18624 - 9" classname="WellDetailsSpecs" time="20.491">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/18624
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: section - 48084 - 5" classname="WellDetailsSpecs" time="20.437">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/48084
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: township - 26787 - 16" classname="WellDetailsSpecs" time="20.429">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/26787
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: range - 48084 - 6" classname="WellDetailsSpecs" time="20.381">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/48084
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: pid - 110749 - 8048142" classname="WellDetailsSpecs" time="0.754">
+    <failure message="Condition not satisfied:&#10;&#10;page.&quot;$TestDesc&quot;.text().trim() == &quot;$WellFieldContent&quot;.trim()&#10;|    |           |      |      |    |                 |&#10;|    |           |      |      |    8048142           8048142&#10;|    |           |      |      false&#10;|    |           |      |      2 differences (77% similarity)&#10;|    |           |      |      (00)8048142&#10;|    |           |      |      (--)8048142&#10;|    |           |      008048142&#10;|    |           008048142&#10;|    pages.app.WellSummaryPage -&gt; pid: geb.navigator.NonEmptyNavigator&#10;pages.app.WellSummaryPage&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+page.&quot;$TestDesc&quot;.text().trim() == &quot;$WellFieldContent&quot;.trim()
+|    |           |      |      |    |                 |
+|    |           |      |      |    8048142           8048142
+|    |           |      |      false
+|    |           |      |      2 differences (77% similarity)
+|    |           |      |      (00)8048142
+|    |           |      |      (--)8048142
+|    |           |      008048142
+|    |           008048142
+|    pages.app.WellSummaryPage -&gt; pid: geb.navigator.NonEmptyNavigator
+pages.app.WellSummaryPage
+
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:143)
+</failure>
+  </testcase>
+  <testcase name="Field content checking: location_desc - 110749 - PREVIOUS LEGAL PLAN: 14144" classname="WellDetailsSpecs" time="0.688"/>
+  <testcase name="Field content checking: latitude - 48084 - 48.663734" classname="WellDetailsSpecs" time="20.444">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/48084
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: longitude - 48084 - -123.585250" classname="WellDetailsSpecs" time="20.393">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/48084
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: utm_zone_code - 48084 - 10" classname="WellDetailsSpecs" time="20.466">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/48084
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: utm_northing - 48084 - 5390241" classname="WellDetailsSpecs" time="20.541">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/48084
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: utm_easting - 48084 - 456906" classname="WellDetailsSpecs" time="20.433">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/48084
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: utm_accuracy_code - 48084 - H" classname="WellDetailsSpecs" time="20.373">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/48084
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: bcgs_mapsheet_number - 48084 - 092B063313" classname="WellDetailsSpecs" time="20.37">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/48084
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: construction_end_date - 110749 - 1976-01-29" classname="WellDetailsSpecs" time="0.71"/>
+  <testcase name="Field content checking: alteration_end_date - 110749 - 2014-11-23" classname="WellDetailsSpecs" time="0.506"/>
+  <testcase name="Field content checking: decommission_end_date - 110749 - 2014-11-23" classname="WellDetailsSpecs" time="0.765"/>
+  <testcase name="Field content checking: drilling_company - 48084 - A. D. Baker Drilling" classname="WellDetailsSpecs" time="20.443">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/48084
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: total_depth_drilled - 48084 - 275.00 feet" classname="WellDetailsSpecs" time="20.406">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/48084
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: static_water_level - 113795 - 96.70 feet" classname="WellDetailsSpecs" time="20.435">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/113795
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: well_cap_type - 113795 - RODENT FREE" classname="WellDetailsSpecs" time="20.46">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/113795
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: finished_well_depth - 48084 - 275.00 feet" classname="WellDetailsSpecs" time="20.398">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/48084
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: well_yield - 48084 - 40.000 GPM" classname="WellDetailsSpecs" time="20.397">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/48084
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: well_disinfected - 48084 - No" classname="WellDetailsSpecs" time="20.407">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/48084
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: final_casing_stickup - 96503 - 24.000 inches" classname="WellDetailsSpecs" time="20.417">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/96503
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: artesian_flow - 110749 - 15.00 USGM" classname="WellDetailsSpecs" time="0.813"/>
+  <testcase name="Field content checking: drilling_method - 48084 - AIR_ROTARY" classname="WellDetailsSpecs" time="20.461">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/48084
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: bedrock_depth - 48084 - 43.00 feet" classname="WellDetailsSpecs" time="20.418">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/48084
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: artesian_pressure - 113552 - 10.00 inches" classname="WellDetailsSpecs" time="0.76"/>
+  <testcase name="Field content checking: orientation_direction - 48084 - vertical" classname="WellDetailsSpecs" time="20.331">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/48084
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: ground_elevation - 26787 - 193.10 feet" classname="WellDetailsSpecs" time="20.462">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/26787
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: ground_elevation_method - 26787 - Differential GPS" classname="WellDetailsSpecs" time="20.414">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/26787
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: well_plate_attached - 48084 - CASING" classname="WellDetailsSpecs" time="20.378">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 20.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:138)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:243)
+	at geb.Page.getAtVerificationResult(Page.groovy:223)
+	at geb.Page.verifyAt(Page.groovy:194)
+	at geb.Browser.doAt(Browser.groovy:457)
+	at geb.Browser.at(Browser.groovy:339)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:56)
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:139)
+Caused by: Assertion failed: 
+
+title == &quot;Groundwater Wells Well Summary - Province of British Columbia&quot;
+|     |
+|     false
+Page not found at /gwells/well/48084
+
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy:6)
+	at pages.app.WellSummaryPage._clinit__closure1(WellSummaryPage.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:127)
+	... 7 more
+</failure>
+  </testcase>
+  <testcase name="Field content checking: intake_method - 110749 - Open Bottom" classname="WellDetailsSpecs" time="0.619"/>
+  <testcase name="Field content checking: screen_type - 102666 - Pipe size" classname="WellDetailsSpecs" time="0.656"/>
+  <testcase name="Field content checking: screen_material - 102666 - Plastic" classname="WellDetailsSpecs" time="0.742"/>
+  <testcase name="Field content checking: screen_opening - 102666 - Perforated Pipe" classname="WellDetailsSpecs" time="0.541"/>
+  <testcase name="Field content checking: screen_bottom - 107072 - Other" classname="WellDetailsSpecs" time="0.562"/>
+  <testcase name="Field content checking: screen_from - 105508 - 105.00" classname="WellDetailsSpecs" time="0.601"/>
+  <testcase name="Field content checking: screen_to - 105508 - 109.00" classname="WellDetailsSpecs" time="0.594"/>
+  <testcase name="Field content checking: internal_diameter - 105508 - 6.00" classname="WellDetailsSpecs" time="0.492"/>
+  <testcase name="Field content checking: assembly_type - 105508 - Screen" classname="WellDetailsSpecs" time="0.515"/>
+  <testcase name="Field content checking: slot_size - 105508 - 15.00" classname="WellDetailsSpecs" time="0.717"/>
+  <testcase name="Field content checking: developed_by - 110749 - Bailing" classname="WellDetailsSpecs" time="0.569"/>
+  <testcase name="Field content checking: devlopment_total_duration - 110749 - 3.00 hours" classname="WellDetailsSpecs" time="0.51"/>
+  <testcase name="Field content checking: yield_estimation_method - 107072 - Air Lifting" classname="WellDetailsSpecs" time="0.686"/>
+  <testcase name="Field content checking: yield_estimation_rate - 110749 - 15.00   USGM" classname="WellDetailsSpecs" time="0.611"/>
+  <testcase name="Field content checking: yield_estimation_duration - 110749 - 12.00   hours" classname="WellDetailsSpecs" time="0.52"/>
+  <testcase name="Field content checking: casings_from - 113503 - 0.00" classname="WellDetailsSpecs" time="0.749"/>
+  <testcase name="Field content checking: casings_to - 113503 - 63.00" classname="WellDetailsSpecs" time="0.531"/>
+  <testcase name="Field content checking: casings_diameter - 113395 - 6.000" classname="WellDetailsSpecs" time="0.587"/>
+  <testcase name="Field content checking: casings_material - 113503 - Steel" classname="WellDetailsSpecs" time="1.016"/>
+  <testcase name="Field content checking: casings_thickness - 113503 - 0.219" classname="WellDetailsSpecs" time="0.599"/>
+  <testcase name="Field content checking: casings_driveshoe - 113503 - Yes" classname="WellDetailsSpecs" time="0.901"/>
+  <testcase name="Field content checking: surface_seal_method - 110627 - Poured" classname="WellDetailsSpecs" time="0.554"/>
+  <testcase name="Field content checking: surface_seal_material - 110627 - Bentonite clay" classname="WellDetailsSpecs" time="0.897"/>
+  <testcase name="Field content checking: surface_seal_thickness - 105417 - 2.00 inches" classname="WellDetailsSpecs" time="0.543"/>
+  <testcase name="Field content checking: surface_seal_length - 105417 - 18.00 feet" classname="WellDetailsSpecs" time="0.526"/>
+  <testcase name="Field content checking: backfill_type - 105417 - CEMENT &amp; BENTONITE CHIPS" classname="WellDetailsSpecs" time="0.568"/>
+  <testcase name="Field content checking: backfill_depth - 105417 - 18.00 feet" classname="WellDetailsSpecs" time="0.547"/>
+  <testcase name="Field content checking: liner_material - 111752 - PVC" classname="WellDetailsSpecs" time="0.516"/>
+  <testcase name="Field content checking: liner_diameter - 111752 - 4.00" classname="WellDetailsSpecs" time="0.601"/>
+  <testcase name="Field content checking: liner_thickness - 111752 - 0.250" classname="WellDetailsSpecs" time="0.482"/>
+  <testcase name="Field content checking: liner_from - 111752 - 8.00" classname="WellDetailsSpecs" time="0.53"/>
+  <testcase name="Field content checking: liner_to - 111752 - 280.00" classname="WellDetailsSpecs" time="0.518"/>
+  <testcase name="Field content checking: liner_perffrom - 111752 - 120.00" classname="WellDetailsSpecs" time="0.531"/>
+  <testcase name="Field content checking: liner_perfto - 111752 - 140.00" classname="WellDetailsSpecs" time="0.566"/>
+  <testcase name="Field content checking: lithology_from - 110000 - 0.00" classname="WellDetailsSpecs" time="0.616"/>
+  <testcase name="Field content checking: lithology_to - 110000 - 2.00" classname="WellDetailsSpecs" time="0.605"/>
+  <testcase name="Field content checking: lithology_raw_data - 110000 - None" classname="WellDetailsSpecs" time="1.003">
+    <failure message="Condition not satisfied:&#10;&#10;page.&quot;$TestDesc&quot;.text().trim() == &quot;$WellFieldContent&quot;.trim()&#10;|    |           |      |      |    |                 |&#10;|    |                  &quot;&quot;     |    None              None&#10;|    |                         false&#10;|    |                         4 differences (0% similarity)&#10;|    |                         (----)&#10;|    |                         (None)&#10;|    pages.app.WellSummaryPage -&gt; lithology_raw_data: geb.navigator.NonEmptyNavigator&#10;pages.app.WellSummaryPage&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+page.&quot;$TestDesc&quot;.text().trim() == &quot;$WellFieldContent&quot;.trim()
+|    |           |      |      |    |                 |
+|    |                  &quot;&quot;     |    None              None
+|    |                         false
+|    |                         4 differences (0% similarity)
+|    |                         (----)
+|    |                         (None)
+|    pages.app.WellSummaryPage -&gt; lithology_raw_data: geb.navigator.NonEmptyNavigator
+pages.app.WellSummaryPage
+
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:143)
+</failure>
+  </testcase>
+  <testcase name="Field content checking: lithology_description - 110000 - cemented" classname="WellDetailsSpecs" time="0.972"/>
+  <testcase name="Field content checking: lithology_material_description - 110000 - soil" classname="WellDetailsSpecs" time="0.834"/>
+  <testcase name="Field content checking: lithology_relative_hardness - 110000 - None" classname="WellDetailsSpecs" time="0.838">
+    <failure message="Condition not satisfied:&#10;&#10;page.&quot;$TestDesc&quot;.text().trim() == &quot;$WellFieldContent&quot;.trim()&#10;|    |           |      |      |    |                 |&#10;|    |                  &quot;&quot;     |    None              None&#10;|    |                         false&#10;|    |                         4 differences (0% similarity)&#10;|    |                         (----)&#10;|    |                         (None)&#10;|    pages.app.WellSummaryPage -&gt; lithology_relative_hardness: geb.navigator.NonEmptyNavigator&#10;pages.app.WellSummaryPage&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+page.&quot;$TestDesc&quot;.text().trim() == &quot;$WellFieldContent&quot;.trim()
+|    |           |      |      |    |                 |
+|    |                  &quot;&quot;     |    None              None
+|    |                         false
+|    |                         4 differences (0% similarity)
+|    |                         (----)
+|    |                         (None)
+|    pages.app.WellSummaryPage -&gt; lithology_relative_hardness: geb.navigator.NonEmptyNavigator
+pages.app.WellSummaryPage
+
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:143)
+</failure>
+  </testcase>
+  <testcase name="Field content checking: lithology_colour - 110000 - dark" classname="WellDetailsSpecs" time="0.632"/>
+  <testcase name="Field content checking: lithology_waterbearing_estimated_flow - 104533 - 200.0000 U.S. Gallons per Minute" classname="WellDetailsSpecs" time="0.555"/>
+  <testcase name="Field content checking: lithology_observations - 110000 - Water-bearing" classname="WellDetailsSpecs" time="0.594"/>
+  <testcase name="Field content checking: reason_for_decommission - 110749 - SITE DEVELOPMENT" classname="WellDetailsSpecs" time="0.517"/>
+  <testcase name="Field content checking: method_of_closure - 110749 - PUMPED" classname="WellDetailsSpecs" time="0.482"/>
+  <testcase name="Field content checking: sealant_material - 110749 - CONCRETE" classname="WellDetailsSpecs" time="0.554"/>
+  <testcase name="Field content checking: backfill_material - 110749 - None" classname="WellDetailsSpecs" time="0.613">
+    <failure message="Condition not satisfied:&#10;&#10;page.&quot;$TestDesc&quot;.text().trim() == &quot;$WellFieldContent&quot;.trim()&#10;|    |           |      |      |    |                 |&#10;|    |                  &quot;&quot;     |    None              None&#10;|    |                         false&#10;|    |                         4 differences (0% similarity)&#10;|    |                         (----)&#10;|    |                         (None)&#10;|    pages.app.WellSummaryPage -&gt; backfill_material: geb.navigator.NonEmptyNavigator&#10;pages.app.WellSummaryPage&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+page.&quot;$TestDesc&quot;.text().trim() == &quot;$WellFieldContent&quot;.trim()
+|    |           |      |      |    |                 |
+|    |                  &quot;&quot;     |    None              None
+|    |                         false
+|    |                         4 differences (0% similarity)
+|    |                         (----)
+|    |                         (None)
+|    pages.app.WellSummaryPage -&gt; backfill_material: geb.navigator.NonEmptyNavigator
+pages.app.WellSummaryPage
+
+	at WellDetailsSpecs.Field content checking: #TestDesc - #WellId - #WellFieldContent(WellDetails.groovy:143)
+</failure>
+  </testcase>
+  <testcase name="Field content checking: decommission_details - 110749 - NO ISSUES WITH CLOSURE. ONLY SLIGHT ARTESIAN FLOW IN NOV. 2014. CASING LEFT IN PLACE, PUMP PULLED." classname="WellDetailsSpecs" time="0.527"/>
+  <testcase name="Field content checking: comments - 110750 - NOT RESPONSIBLE FOR QUALITY OR QUANTITY" classname="WellDetailsSpecs" time="0.553"/>
+  <system-out><![CDATA[BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+district_lot: 405
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+pid: 008048142
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+location_desc: PREVIOUS LEGAL PLAN: 14144
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+construction_end_date: 1976-01-29
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+alteration_end_date: 2014-11-23
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+decommission_end_date: 2014-11-23
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+artesian_flow: 15.00 USGM
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+artesian_pressure: 10.00 inches
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+intake_method: Open Bottom
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+screen_type: Pipe size
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+screen_material: Plastic
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+screen_opening: Perforated Pipe
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+screen_bottom: Other
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+screen_from: 105.00
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+screen_to: 109.00
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+internal_diameter: 6.00
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+assembly_type: Screen
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+slot_size: 15.00
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+developed_by: Bailing
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+devlopment_total_duration: 3.00 hours
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+yield_estimation_method: Air Lifting
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+yield_estimation_rate: 15.00   USGM
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+yield_estimation_duration: 12.00   hours
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+casings_from: 0.00
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+casings_to: 63.00
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+casings_diameter: 6.000
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+casings_material: Steel
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+casings_thickness: 0.219
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+casings_driveshoe: Yes
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+surface_seal_method: Poured
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+surface_seal_material: Bentonite clay
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+surface_seal_thickness: 2.00 inches
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+surface_seal_length: 18.00 feet
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+backfill_type: CEMENT & BENTONITE CHIPS
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+backfill_depth: 18.00 feet
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+liner_material: PVC
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+liner_diameter: 4.00
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+liner_thickness: 0.250
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+liner_from: 8.00
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+liner_to: 280.00
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+liner_perffrom: 120.00
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+liner_perfto: 140.00
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+lithology_from: 0.00
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+lithology_to: 2.00
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+lithology_raw_data: 
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+lithology_description: cemented
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+lithology_material_description: soil
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+lithology_relative_hardness: 
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+lithology_colour: dark
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+lithology_waterbearing_estimated_flow: 200.0000 U.S. Gallons per Minute
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+lithology_observations: Water-bearing
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+reason_for_decommission: SITE DEVELOPMENT
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+method_of_closure: PUMPED
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+sealant_material: CONCRETE
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+backfill_material: 
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+decommission_details: NO ISSUES WITH CLOSURE. ONLY SLIGHT ARTESIAN FLOW IN NOV. 2014. CASING LEFT IN PLACE, PUMP PULLED.
+BaseURL: http://gwells-dev.pathfinder.gov.bc.ca/
+--------------------------
+comments: NOT RESPONSIBLE FOR QUALITY OR QUANTITY
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
