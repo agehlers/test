@@ -15,7 +15,8 @@ node('bddstack') {
           }
 	}
     } finally {
-      step([$class: 'JUnitResultArchiver', testResults: 'build/test-results/**/*.xml', healthScaleFactor: 1.0])
+      //step([$class: 'JUnitResultArchiver', testResults: 'build/test-results/**/*.xml', healthScaleFactor: 1.0])
+      junit 'buid/test-results/**/*'
       archiveArtifacts allowEmptyArchive: true, artifacts: 'build/test-results/**/*'
     }
 }
