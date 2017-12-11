@@ -35,7 +35,7 @@ RUN yum repolist > /dev/null && \
     #cp /opt/app-root/src/drupal/sites/default.settings.php /opt/app-root/src/drupal/sites/settings.php &&\
     #chown -R apache:apache /opt/apt-root/src/drupal/ &&\
     #chcon -R -t httpd_sys_content_rw_t /opt/app-root/src/drupal/sites/ &&\
-    rm drupal-8.4.3.tar.gz
+    rm drupal-8.4.3.tar
 
 #RUN easy_install supervisor
 # Still need drush installed
