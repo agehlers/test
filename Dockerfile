@@ -29,6 +29,8 @@ RUN yum repolist > /dev/null && \
     wget -c https://ftp.drupal.org/files/projects/drupal-8.4.3.tar.gz && \
     gunzip drupal-8.4.3.tar.gz &&\
     tar -xf drupal-8.4.3.tar &&\
+    if [ ! -d /opt/app-root ]; then mkdir /opt/app-root; fi &&\
+    if [ ! -d /opt/app-root/src ]; then mkdir /opt/app-root/src; fi &&\
     mv drupal-8.4.3 /opt/app-root/src &&\
     cp /opt/app-root/src/drupal/sites/default.settings.php /opt/app-root/src/drupal/sites/settings.php &&\
     #chown -R apache:apache /opt/apt-root/src/drupal/ &&\
