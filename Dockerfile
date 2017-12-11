@@ -32,7 +32,7 @@ RUN yum repolist > /dev/null && \
     if [ ! -d /opt/app-root ]; then mkdir /opt/app-root; fi &&\
     if [ ! -d /opt/app-root/src ]; then mkdir /opt/app-root/src; fi &&\
     mv drupal-8.4.3 /opt/app-root/src &&\
-    cp /opt/app-root/src/drupal/sites/default.settings.php /opt/app-root/src/drupal/sites/settings.php &&\
+    #cp /opt/app-root/src/drupal/sites/default.settings.php /opt/app-root/src/drupal/sites/settings.php &&\
     #chown -R apache:apache /opt/apt-root/src/drupal/ &&\
     #chcon -R -t httpd_sys_content_rw_t /opt/app-root/src/drupal/sites/ &&\
     rm drupal-8.4.3.tar.gz
