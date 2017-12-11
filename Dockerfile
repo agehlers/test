@@ -22,7 +22,7 @@ RUN yum repolist > /dev/null && \
     yum-config-manager --enable rhel-7-server-rpms && \
     yum-config-manager --enable rhel-7-server-optional-rpms && \
     yum-config-manager --enable rhel-7-server-fastrack-rpms && \
-    INSTALL_PKGS="tar wget gzip mod_ssl rh-php71-php-fpm rh-php71-php-mysql" && \
+    INSTALL_PKGS="tar wget gzip mod_ssl rh-php71-php-fpm" && \
     yum install -y --setopt=tsflags=nodocs $INSTALL_PKGS && \
     rpm -V $INSTALL_PKGS && \
     yum clean all -y && \
