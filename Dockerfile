@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/rhscl/php-71-rhel7 php-test-app
+FROM registry.access.redhat.com/rhscl/php-71-rhel7
 
 ENV SUMMARY="Drupal 8.4 with Apache 2.4 and PHP 7.1." \
     DESCRIPTION="Drupal 8.4, Apache 2.4, PHP 7.1"
