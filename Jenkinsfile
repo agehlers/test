@@ -1,22 +1,31 @@
-node('bddstack') {
-
-    stage('code checkout') {
-       echo "checking out source"
-       checkout scm
+@NonCPS // has to be NonCPS or the build breaks on the call to .each
+def echo_all(list) {
+    list.each { item ->
+        echo "${item}"
     }
+}
 
-    stage('build') {
-	    echo "Building..."
+def echo_via_for_loop(list) {
+    for (int i = 0; i < list.size(); i++) {
+        sh "echo ${list[i]}"
     }
- 
-    try {
-	stage('validation') {
-          dir('build'){
-          }
-	}
-    } finally {
-      //step([$class: 'JUnitResultArchiver', testResults: 'build/test-results/**/*.xml', healthScaleFactor: 1.0])
-      junit 'build/test-results/**/*.xml'
-      archiveArtifacts allowEmptyArchive: true, artifacts: 'build/test-results/**/*'
+}
+
+def APPNAME = 'devxp'
+
+node('master') {
+    stage('Test Arrays') {
+       def myList = ['a', 'b', 'c']
+       
+           // prints 'a', 'b' and 'c'
+           for (i in myList) {
+             echo i
+           }
+           
+       echo "each loop"    
+       echo_all(myList)
+       
+       echo_via_for_loop(myList)
+       
     }
 }
