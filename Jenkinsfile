@@ -34,7 +34,6 @@ node('master') {
               returnStdout: true).trim()
         echo "${TEST_PASSWORD}"
         echo "${TEST_USERNAME}"
-        sh 'export TEST_USER=${TEST_USERNAME}\nexport TEST_PWD=${TEST_PASSWORD}\nenv|grep TEST'
-        sh 'export TEST_USER=`echo "${TEST_USERNAME}"|base64 -d`\nexport TEST_PWD=`echo "${TEST_PASSWORD}"|base64 -d`\nenv|grep TEST'
+        sh 'echo ${TEST_USERNAME}\necho ${TEST_PASSWORD}\nexport TEST_USER=${TEST_USERNAME}\nexport TEST_PWD=${TEST_PASSWORD}\nenv|grep TEST'
     }
 }
