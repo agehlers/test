@@ -34,8 +34,8 @@ node('master') {
               returnStdout: true).trim()
         echo "${TEST_PASSWORD}"
         echo "${TEST_USERNAME}"
-        withEnv(["TEST_PWD=${TEST_PASSWORD}"]) {
-           sh 'env'
+        withEnv(["TEST_PWD=${TEST_PASSWORD};TEST_USER=${TEST_USERNAME}"]) {
+           sh 'env|grep TEST'
         }
     }
 }
