@@ -32,7 +32,7 @@ node('master') {
         TEST_PASSWORD = sh (
              script: 'oc get secret bdd-test-account -o yaml | grep password | awk -F ":" \'{print $2}\'',
              returnStdout: true).trim()
-        echo $TEST_PASSWORD
-        echo $TEST_USERNAME
+        echo ${TEST_PASSWORD}
+        echo ${TEST_USERNAME}
     }
 }
