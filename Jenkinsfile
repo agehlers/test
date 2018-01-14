@@ -28,11 +28,19 @@ node('master') {
         
         TEST_USERNAME = sh (
              script: 'oc get secret bdd-test-account -o yaml | grep username | awk -F ":" \'{print $2}\'',
-             returnStdout: true).trim()		  
+              returnStdout: true).trim()		  
         TEST_PASSWORD = sh (
              script: 'oc get secret bdd-test-account -o yaml | grep password | awk -F ":" \'{print $2}\'',
-             returnStdout: true).trim()
+              returnStdout: true).trim()
         echo "${TEST_PASSWORD}"
         echo "${TEST_USERNAME}"
+        TEST_USER = sh (
+            script: 'echo "${TEST_USERNAME}" | base64 -d',
+             returnStdout: true).trim()		  
+        TEST_PWD = sh (
+            script: 'echo "${TEST_PASSWORD}" | base64 -d',
+             returnStdout: true).trim()
+        echo "${TEST_PWD}"
+        echo "${TEST_USER}"
     }
 }
