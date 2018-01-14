@@ -34,6 +34,8 @@ node('master') {
               returnStdout: true).trim()
         echo "${TEST_PASSWORD}"
         echo "${TEST_USERNAME}"
-        sh 'echo ${TEST_USERNAME}\necho ${TEST_PASSWORD}\nexport TEST_USER=${TEST_USERNAME}\nexport TEST_PWD=${TEST_PASSWORD}\nenv|grep TEST'
+        withEnv(["TEST_PWD=${TEST_PASSWORD}"],["TEST_USER=${TEST_USERNAME}"]) {
+           sh 'env'
+        }
     }
 }
