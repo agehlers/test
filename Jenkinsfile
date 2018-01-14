@@ -27,10 +27,10 @@ node('master') {
     stage('Test Secrets') {
         
         TEST_USERNAME = sh (
-             script: 'oc get secret bdd-test-account -o yaml | grep username | awk -F ":" \'{print "$2"}\' | base64 -d',
+             script: 'oc get secret bdd-test-account -o yaml | grep username | awk -F ":" \'{print "$2"}\'',
               returnStdout: true).trim()		  
         TEST_PASSWORD = sh (
-             script: 'oc get secret bdd-test-account -o yaml | grep password | awk -F ":" \'{print "$2"}\' | base64 -d',
+             script: 'oc get secret bdd-test-account -o yaml | grep password | awk -F ":" \'{print "$2"}\'',
               returnStdout: true).trim()
         echo "${TEST_PASSWORD}"
         echo "${TEST_USERNAME}"
