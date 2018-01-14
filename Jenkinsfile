@@ -36,6 +36,8 @@ node('master') {
         echo "${TEST_USERNAME}"
         withEnv(["TEST_PWD=${TEST_PASSWORD}","TEST_USER=${TEST_PASSWORD}"]) {
            sh 'env|grep TEST'
+           sh 'echo "$TEST_USER" | base64 -d'
+           sh 'echo "$TEST_PWD" | base64 -d'
         }
     }
 }
