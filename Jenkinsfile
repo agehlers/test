@@ -35,4 +35,5 @@ node('master') {
         echo "${TEST_PASSWORD}"
         echo "${TEST_USERNAME}"
         sh 'export TEST_USERNAME=`echo "${TEST_USERNAME}"|base64 -d`\nexport TEST_PASSWORD=`echo "${TEST_PASSWORD}"|base64 -d\nenv'
+    }
 }
