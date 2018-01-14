@@ -35,11 +35,11 @@ node('master') {
         echo "${TEST_PASSWORD}"
         echo "${TEST_USERNAME}"
         TEST_USER = sh (
-            script: 'echo "${TEST_USERNAME}" | base64 -d',
-             returnStdout: true).trim()		  
+             script: 'export TEST_USERNAME=${TEST_USERNAME}\necho "$TEST_USERNAME" | base64 -d',
+              returnStdout: true).trim()		  
         TEST_PWD = sh (
-            script: 'echo "${TEST_PASSWORD}" | base64 -d',
-             returnStdout: true).trim()
+             script: 'export TEST_PASSWORD=${TEST_PASSWORD}\necho "$TEST_PASSWORD" | base64 -d',
+              returnStdout: true).trim()
         echo "${TEST_PWD}"
         echo "${TEST_USER}"
     }
