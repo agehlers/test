@@ -36,6 +36,7 @@ node('maven') {
            sh 'env|grep TEST'
            sh 'echo "$TEST_USER" | base64 -d'
            sh 'echo "$TEST_PASS" | base64 -d'
+        }
     }
 }
 
