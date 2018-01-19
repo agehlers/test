@@ -13,7 +13,7 @@ def echo_via_for_loop(list) {
 
 def APPNAME = 'devxp'
 
-node('master') {
+node('maven') {
     stage('Test Arrays') {
        def myList = ['a', 'b', 'c']
            // prints 'a', 'b' and 'c'
