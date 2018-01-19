@@ -24,6 +24,8 @@ node('master') {
        echo_all(myList)
        echo_via_for_loop(myList)       
     }
+}
+node ('bddstack') {
     stage('Test Secrets') {
         
         TEST_USERNAME = sh (
