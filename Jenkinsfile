@@ -44,6 +44,15 @@ podTemplate(label: 'custom-maven', name: 'custom-maven', serviceAccount: 'jenkin
      }
    }
 
+
+
+node ('zap') {
+    stage('ZAP Testing') {
+           sh 'env'
+           pwd
+        }
+    }
+
 node('maven') {
     stage('Test Arrays') {
        def myList = ['a', 'b', 'c']
