@@ -13,7 +13,17 @@ def echo_via_for_loop(list) {
 
 def APPNAME = 'devxp'
 
-Jenkins.instance.updateCenter.getPlugin("htmlpublisher").deploy()
+//
+// Install plugins
+// Priviledged operation, requires script approvalse for
+// method hudson.model.UpdateCenter getPlugin java.lang.String
+// method hudson.model.UpdateSite$Plugin deploy
+// method jenkins.model.Jenkins getUpdateCenter
+// staticMethod jenkins.model.Jenkins getInstance
+// Under https://jenkins-<namespace>.pathfinder.gov.bc.ca/scriptApproval/
+//       --> Signatures already approved:
+//
+// Jenkins.instance.updateCenter.getPlugin("htmlpublisher").deploy()
 
 //See https://github.com/jenkinsci/kubernetes-plugin
 podTemplate(label: 'custom-maven', name: 'custom-maven', serviceAccount: 'jenkins', cloud: 'openshift', containers: [
