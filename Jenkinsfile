@@ -13,9 +13,7 @@ def echo_via_for_loop(list) {
 
 def APPNAME = 'devxp'
 
-//Jenkins.instance.updateCenter.getPlugin("publishHtml").deploy()
-
-
+Jenkins.instance.updateCenter.getPlugin("htmlpublisher").deploy()
 
 //See https://github.com/jenkinsci/kubernetes-plugin
 podTemplate(label: 'custom-maven', name: 'custom-maven', serviceAccount: 'jenkins', cloud: 'openshift', containers: [
