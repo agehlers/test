@@ -27,11 +27,11 @@ podTemplate(label: 'custom-maven', name: 'custom-maven', serviceAccount: 'jenkin
     command: '',
     args: '${computer.jnlpmac} ${computer.name}'
   )
-  ])
-
-node('custom-maven') {
-  sh('mvn --version')
-}
+]) {
+     node('custom-maven') {
+       sh('mvn --version')
+     }
+   }
 
 node('maven') {
     stage('Test Arrays') {
