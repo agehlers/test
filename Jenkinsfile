@@ -15,7 +15,7 @@ def APPNAME = 'devxp'
 
 
 
-podTemplate(label: 'custom-maven', name: 'maven', serviceAccount: 'jenkins', cloud: 'openshift', containers: [
+podTemplate(label: 'custom-maven', name: 'custom-maven', serviceAccount: 'jenkins', cloud: 'openshift', containers: [
   containerTemplate(
     name: 'jnlp',
     image: 'registry.access.redhat.com/openshift3/jenkins-slave-maven-rhel7',
