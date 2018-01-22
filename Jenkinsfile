@@ -14,7 +14,7 @@ def echo_via_for_loop(list) {
 def APPNAME = 'devxp'
 
 
-
+//See https://github.com/jenkinsci/kubernetes-plugin
 podTemplate(label: 'custom-maven', name: 'custom-maven', serviceAccount: 'jenkins', cloud: 'openshift', containers: [
   containerTemplate(
     name: 'jnlp',
