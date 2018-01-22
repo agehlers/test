@@ -27,7 +27,7 @@ podTemplate(label: 'custom-maven', name: 'maven', serviceAccount: 'jenkins', clo
     command: '',
     args: '${computer.jnlpmac} ${computer.name}'
   )
-  ]) {
+  ])
 
 node('custom-maven') {
   sh('mvn --version')
