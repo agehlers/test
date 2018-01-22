@@ -13,6 +13,26 @@ def echo_via_for_loop(list) {
 
 def APPNAME = 'devxp'
 
+
+
+podTemplate(label: 'custom-maven', name: 'maven', serviceAccount: 'jenkins', cloud: 'openshift', containers: [
+  containerTemplate(
+    name: 'jnlp',
+    image: 'registry.access.redhat.com/openshift3/jenkins-slave-maven-rhel7',
+    resourceRequestCpu: '50m',
+    resourceLimitCpu: '100m',
+    resourceRequestMemory: '100Mi',
+    resourceLimitMemory: '999Mi',
+    workingDir: '/tmp',
+    command: '',
+    args: '${computer.jnlpmac} ${computer.name}'
+  )
+  ]) {
+
+node('custom-maven') {
+  sh('mvn --version')
+}
+
 node('maven') {
     stage('Test Arrays') {
        def myList = ['a', 'b', 'c']
