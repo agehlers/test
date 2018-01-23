@@ -9,5 +9,5 @@ LABEL summary="$SUMMARY" \
       io.k8s.display-name="Drupal-8.4" \
       io.openshift.tags="builder,rhel" \
       release="1"
-      
-CMD ["while [ 1 -lt 5 ] ; do echo ""; done"]
+
+CMD ["while [ 1 -lt 5 ] ; do echo ; done"]
