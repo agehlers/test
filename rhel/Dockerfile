@@ -10,4 +10,4 @@ LABEL summary="$SUMMARY" \
       io.openshift.tags="builder,rhel" \
       release="1"
       
-#CMD ["/bin/tail"]
+CMD ["while [ 1 -lt 5 ] ; do echo ""; done"]
