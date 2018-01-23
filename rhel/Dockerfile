@@ -9,3 +9,4 @@ LABEL summary="$SUMMARY" \
       io.k8s.display-name="Drupal-8.4" \
       io.openshift.tags="builder,rhel" \
       release="1"
+CMD ["tail -f /dev/null"]
