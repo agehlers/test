@@ -13,4 +13,6 @@ LABEL summary="$SUMMARY" \
 COPY runcmd.sh /tmp/
 RUN chmod +x /tmp/runcmd.sh
 
+USER 0
+
 CMD ["/tmp/runcmd.sh"]
