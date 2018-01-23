@@ -26,21 +26,21 @@ def APPNAME = 'devxp'
 // Jenkins.instance.updateCenter.getPlugin("htmlpublisher").deploy()
 
 //See https://github.com/jenkinsci/kubernetes-plugin
-podTemplate(label: 'custom-maven', name: 'custom-maven', serviceAccount: 'jenkins', cloud: 'openshift', containers: [
+podTemplate(label: 'owasp-zap', name: 'owasp-zap', serviceAccount: 'jenkins', cloud: 'openshift', containers: [
   containerTemplate(
     name: 'jnlp',
-    image: 'registry.access.redhat.com/openshift3/jenkins-slave-maven-rhel7',
-    resourceRequestCpu: '50m',
-    resourceLimitCpu: '100m',
-    resourceRequestMemory: '100Mi',
-    resourceLimitMemory: '999Mi',
+    image: '172.50.0.2:5000/openshift/jenkins-slave-zap',
+    resourceRequestCpu: '500m',
+    resourceLimitCpu: '1000m',
+    resourceRequestMemory: '3Gi',
+    resourceLimitMemory: '4Gi',
     workingDir: '/tmp',
     command: '',
     args: '${computer.jnlpmac} ${computer.name}'
   )
 ]) {
-     node('custom-maven') {
-       sh('mvn --version')
+     node('owasp-zap') {
+       sh('env')
      }
    }
 
