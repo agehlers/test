@@ -25,6 +25,36 @@ def APPNAME = 'devxp'
 //
 // Jenkins.instance.updateCenter.getPlugin("htmlpublisher").deploy()
 
+
+podTemplate(label: 'sonar', name: 'sonar', serviceAccount: 'jenkins', cloud: 'openshift', containers: [
+  containerTemplate(
+    name: 'jnlp',
+    image: '172.50.0.2:5000/agehlers-sandbox/jenkins-slave-sonar',
+    resourceRequestCpu: '500m',
+    resourceLimitCpu: '1000m',
+    resourceRequestMemory: '1Gi',
+    resourceLimitMemory: '4Gi',
+    workingDir: '/tmp',
+    command: '',
+    args: '${computer.jnlpmac} ${computer.name}'
+  )
+  ]) 
+  {
+    node('sonar') {
+	  stage('Run DotNet Sonar Analysis') {
+        echo "checking out source"
+        echo "Build: ${BUILD_ID}"
+        checkout scm
+        dir('sonar-runner') {
+	      try {
+                sh './scan.sh'
+	      } finally {}
+        }
+      }
+    }
+  }
+
+
 //See https://github.com/jenkinsci/kubernetes-plugin
 podTemplate(label: 'owasp-zap', name: 'owasp-zap', serviceAccount: 'jenkins', cloud: 'openshift', containers: [
   containerTemplate(
@@ -44,16 +74,7 @@ podTemplate(label: 'owasp-zap', name: 'owasp-zap', serviceAccount: 'jenkins', cl
      }
    }
 
-
-
-node ('zap') {
-    stage('ZAP Testing') {
-           sh 'env'
-           pwd
-        }
-    }
-
-node('maven') {
+node('master') {
     stage('Test Arrays') {
        def myList = ['a', 'b', 'c']
            // prints 'a', 'b' and 'c'
@@ -80,7 +101,7 @@ node('maven') {
     }
 }
 
-node ('bddstack') {
+node ('master') {
     stage('Test Secrets') {
         
         TEST_USERNAME = sh (
