@@ -9,21 +9,21 @@
 # Title of this site
 # ---------------------------------------------------------------------
 
-title: Wiki
+title: BCGov-Wiki
 
 # ---------------------------------------------------------------------
 # Full public path to the site, without the trailing slash
 # ---------------------------------------------------------------------
 # INCLUDE CLIENT PORT IF NOT 80/443!
 
-host: http://localhost
+host: http://localhost:8080
 
 # ---------------------------------------------------------------------
 # Port the main server should listen to (80 by default)
 # ---------------------------------------------------------------------
 # To use process.env.PORT, comment the line below:
 
-port: 80
+port: 8080
 
 # ---------------------------------------------------------------------
 # Data Directories
@@ -63,11 +63,11 @@ auth:
   local:
     enabled: true
   google:
-    enabled: true
+    enabled: false
     clientId: GOOGLE_CLIENT_ID
     clientSecret: GOOGLE_CLIENT_SECRET
   microsoft:
-    enabled: true
+    enabled: false
     clientId: MS_APP_ID
     clientSecret: MS_APP_SECRET
   facebook:
@@ -115,7 +115,8 @@ sessionSecret: 1234567890abcdefghijklmnopqrstuvxyz
 # Database Connection String
 # ---------------------------------------------------------------------
 
-db: mongodb://localhost:27017/wiki
+#db: mongodb://localhost:27017/wiki
+db: mongodb://userS78:lqr4jKMpWyJjmKsa@mongodb/wikijs
 
 # ---------------------------------------------------------------------
 # Git Connection Info
