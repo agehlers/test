@@ -16,7 +16,7 @@ title: BCGov-Wiki
 # ---------------------------------------------------------------------
 # INCLUDE CLIENT PORT IF NOT 80/443!
 
-host: http://localhost:8080
+host: https://wikijs-agehlers-sandbox.pathfinder.gov.bc.ca/
 
 # ---------------------------------------------------------------------
 # Port the main server should listen to (80 by default)
@@ -116,7 +116,8 @@ sessionSecret: 1234567890abcdefghijklmnopqrstuvxyz
 # ---------------------------------------------------------------------
 
 #db: mongodb://localhost:27017/wiki
-db: mongodb://userS78:lqr4jKMpWyJjmKsa@mongodb/wikijs
+#db: mongodb://userS78:lqr4jKMpWyJjmKsa@mongodb/wikijs
+db: mongodb://mongodb.agehlers-sandbox.svc.cluster.local:27017/wikijs
 
 # ---------------------------------------------------------------------
 # Git Connection Info
