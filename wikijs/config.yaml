@@ -123,28 +123,7 @@ db: mongodb://mongodb.agehlers-sandbox.svc.cluster.local:27017/wikijs
 # Git Connection Info
 # ---------------------------------------------------------------------
 
-git:
-  url: https://github.com/Organization/Repo
-  branch: master
-  auth:
-
-    # Type: basic or ssh
-    type: ssh
-
-    # Only for Basic authentication:
-    username: admin
-    password: admin88
-
-    # Only for SSH authentication:
-    privateKey: /etc/wiki/keys/git.pem
-
-    sslVerify: true
-
-  # Default email to use as commit author
-  serverEmail: admin@example.com
-
-  # Whether to use user email as author in commits
-  showUserEmail: true
+git: false
 
 # ---------------------------------------------------------------------
 # Features
