@@ -117,7 +117,7 @@ sessionSecret: 1234567890abcdefghijklmnopqrstuvxyz
 
 #db: mongodb://localhost:27017/wiki
 #db: mongodb://userS78:lqr4jKMpWyJjmKsa@mongodb/wikijs
-db: mongodb://wikijs:wikijs@mongodb.agehlers-sandbox.svc.cluster.local:27017/wikijs
+db: mongodb://wikijs:wikijs@wikijs-mongodb.agehlers-sandbox.svc.cluster.local:27017/wikijs
 
 # ---------------------------------------------------------------------
 # Git Connection Info
