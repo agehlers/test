@@ -17,7 +17,7 @@ RUN yum repolist > /dev/null && \
     yum-config-manager --enable rhel-7-server-rpms && \
     yum-config-manager --enable rhel-7-server-optional-rpms && \
     yum-config-manager --enable rhel-7-server-fastrack-rpms && \
-    INSTALL_PKGS="telnet rsh rsync wget curl ping traceroute netstat nslookup route arp lsof" && \
+    INSTALL_PKGS="telnet rsh rsync wget curl traceroute net-tools lsof" && \
     yum install -y --setopt=tsflags=nodocs $INSTALL_PKGS && \
     rpm -V $INSTALL_PKGS && \
     yum clean all -y
