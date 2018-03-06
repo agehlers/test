@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "hads": "^1.6.0"
+  },
+  "scripts": {
+    "start": "hads -p 8080" 
+  }
+}
