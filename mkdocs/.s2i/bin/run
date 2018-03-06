@@ -1,1 +1,1 @@
-mkdocs -q serve
+mkdocs -q -v serve
