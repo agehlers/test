@@ -3,6 +3,6 @@
     "hads": "^1.6.0"
   },
   "scripts": {
-    "start": "hads -h hads-agehlers-sandbox.pathfinder.gov.bc.ca -p 8080" 
+    "start": "hads -h localhost -p 8080" 
   }
 }
