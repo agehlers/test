@@ -1,4 +1,4 @@
-dev_addr: mkdocs-agehlers-sandbox.pathfinder.gov.bc.ca:8080
+dev_addr: localhost:8080
 site_name: OpenShift Wiki
 pages:
     - Home: index.md
