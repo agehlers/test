@@ -5,6 +5,6 @@ set -e
 echo "---> Installing application source ..."
 cp -Rf /tmp/src/. ./
 
-echo "---> Installing gitbook-cli"
+echo "---> Installing hads"
 npm install -g hads &>/dev/null
 
