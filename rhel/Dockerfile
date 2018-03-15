@@ -17,11 +17,13 @@ RUN yum repolist > /dev/null && \
     yum-config-manager --enable rhel-7-server-rpms && \
     yum-config-manager --enable rhel-7-server-optional-rpms && \
     yum-config-manager --enable rhel-7-server-fastrack-rpms && \
-    INSTALL_PKGS="telnet rsh rsync wget curl traceroute net-tools lsof iproute tcpflow" && \
+    INSTALL_PKGS="telnet rsh rsync wget curl traceroute net-tools lsof iproute" && \
     yum install -y --setopt=tsflags=nodocs $INSTALL_PKGS && \
     rpm -V $INSTALL_PKGS && \
     yum clean all -y
     
+RUN yum install --nogpgcheck http://pkgs.repoforge.org/tcpflow/tcpflow-0.21-1.2.el6.rf.x86_64.rpm
+
 COPY runcmd.sh /tmp/
 RUN chmod +x /tmp/runcmd.sh
 
