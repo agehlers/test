@@ -22,9 +22,9 @@ RUN yum repolist > /dev/null && \
     rpm -V $INSTALL_PKGS && \
     yum clean all -y
     
-COPY  tcpflow-0.21-1.2.el6.rf.x86_64.rpm /tmp/
-RUN yum install --nogpgcheck /tmp/tcpflow-0.21-1.2.el6.rf.x86_64.rpm
-RUN rm /tmp/tcpflow-0.21-1.2.el6.rf.x86_64.rpm
+COPY tcpflow-0.21-1.2.el7.rf.x86_64.rpm /tmp/
+RUN yum install --nogpgcheck /tmp/tcpflow-0.21-1.2.el7.rf.x86_64.rpm
+RUN rm /tmp/tcpflow-0.21-1.2.el7.rf.x86_64.rpm
 
 COPY runcmd.sh /tmp/
 RUN chmod +x /tmp/runcmd.sh
