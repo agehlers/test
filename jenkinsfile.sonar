@@ -1,0 +1,20 @@
+node('master') {
+  checkout scm
+  stage('SonarQube Scan') {
+    dir('sonar-runner') {
+        SONARQUBE_URL = sh (
+            script: 'oc get routes -o wide --no-headers | awk \'/sonarqube/{ print match($0,/edge/) ?  "https://"$2 : "http://"$2 }\'',
+            returnStdout: true
+        ).trim()
+        echo ">> SONARQUBE_URL: ${SONARQUBE_URL}"
+        dir('sonar-runner') {
+          try {
+            sh returnStdout: true, script: "./gradlew sonarqube -Dsonar.host.url=${SONARQUBE_URL} -Dsonar.verbose=true --stacktrace --info  -Dsonar.sources=.."
+          } finally { }
+        }
+    }
+  }
+}
+
+
+
