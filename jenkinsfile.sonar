@@ -1,7 +1,6 @@
 node('master') {
-  checkout scm
+  //checkout scm
   stage('SonarQube Scan') {
-    dir('sonar-runner') {
         SONARQUBE_URL = sh (
             script: 'oc get routes -o wide --no-headers | awk \'/sonarqube/{ print match($0,/edge/) ?  "https://"$2 : "http://"$2 }\'',
             returnStdout: true
@@ -13,8 +12,4 @@ node('master') {
           } finally { }
         }
     }
-  }
 }
-
-
-
